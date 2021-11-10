@@ -19,25 +19,27 @@
         <p>Curriculum vitæ</p>
       </div>
       <!-- Bouton Header -->
-      <div class="bouton">
-        <button type="button" name="button">Mon CV Papier</button>
+      <div class="button">
+        <button class="button-31" role="button">Mon CV Papier</button>
       </div>
-      <!-- Barre de Navigation -->
-      <nav class="navbar">
-        <!-- Bouton Nav Mobile -->
-        <label for="navmobile">
-          <img class="hbgr" src="img/bars-solid.svg" alt="">
+      <!-- Navigation -->
+      <div class="navigation">
+        <input type="checkbox" class="navigationcheckbox" id="navi" name="" value="">
+        <label for="navi" class="navigationbtn">
+            <span class="navigationicon">&nbsp;</span>
         </label>
-        <input id="navmobile" type="checkbox" name="" value="" style="display:none">
-              <!-- Nav PC -->
-        <ul>
-          <li><a href="#compétences"></a>Compétences</li>
-          <li><a href="#expro"></a>Exprériences Professionnelles</li>
-          <li><a href="#formation"></a>Formations</li>
-          <li><a href="#ci"></a>Centres d'Intérêts</li>
-          <li> <a href="#logo"><img class="logo" src="img/githublogo.pn" alt="">Logo</a></li>
-        </ul>
-      </nav>
+        <div class="navigationbg">&nbsp;</div>
+        <nav class="nav">
+          <ul class="navigationliste">
+            <li class="navigationitem"><a href="#" class="liens">Compétences</a></li>
+            <li class="navigationitem"><a href="#" class="liens">Expériences Professionnelles</a></li>
+            <li class="navigationitem"><a href="#" class="liens">Formations</a></li>
+            <li class="navigationitem"><a href="#" class="liens">Centres d'Intérêts</a></li>
+            <li class="navigationitem"><a href="#" class="liens">Logos</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Ma Photo -->
       <div class="photo">
         <img src="img/maphoto.png" alt="maphoto">
       </div>
@@ -59,10 +61,13 @@
       <!-- Présentation -->
       <div class="présentation">
         <h2>Qui suis-je ?</h2>
+        <hr style="height:1px; color:black; background-color:black; width:50%" >
         <p>Je suis un jeune homme de 25 ans passionné par le domaine de l'informatique après une Formation d'Assistance informatique je me suis orienté vers la programmation et le design informatique.</p>
       </div>
       <!-- Compétences -->
       <div class="compétences"  id=compétences >
+        <h2>Compétences</h2>
+        <hr style="height:1px; color:black; background-color:black; width:50%" >
         <ul class="ulc">
           <li>HTML / CSS</li>
           <li>Linux</li>
@@ -74,6 +79,8 @@
       </div>
       <!-- Expériences Professionnelles -->
       <div class="expro"  id=expro >
+        <h2>Expériences Professionnelles</h2>
+        <hr style="height:1px; color:black; background-color:black; width:50%" >
         <div class="ageval">
           <h3>ATELIER NUMERIQUE AGEVAL</h3>
         </div>
@@ -83,6 +90,8 @@
       </div>
       <!-- Formations -->
       <div class="formation" id=formation>
+        <h2>Formations</h2>
+        <hr style="height:1px; color:black; background-color:black; width:50%" >
         <div class="tai">
           <h3>FORMATION D'ASSISTANCE INFORMATIQUE</h3>
         </div>
@@ -93,6 +102,7 @@
       <!-- Centres d'intérêts -->
       <div class="ci" id=ci>
         <h3>CENTRES D'INTERETS</h3>
+        <hr style="height:1px; color:black; background-color:black; width:50%" >
       </div>
     </main>
     <footer>

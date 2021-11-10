@@ -10,63 +10,160 @@
 }
 
 /* Bouton Header */
-.bouton {
-  position: relative;
-  margin: auto;
-  margin-bottom: 10px;
-  background-color: #ffd631;
-  border: none;
-  font-size: 28px;
-  color: #ffd631;
-  padding: 20px;
-  width: 200px;
+.button {
   text-align: center;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  text-decoration: none;
+  padding-bottom: 25px;
+}
+
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
   overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+
+/* Navigation*/
+.navigationcheckbox {
+  display: none;
+}
+
+.navigationbg {
+  height: 6rem;
+  width: 6rem;
+  border-radius:50%;
+  position: fixed;
+  top:4.5rem;
+  right:6.5rem;
+  background-image: radial-gradient(#ffd631,#ffd631);
+  z-index: 1000;
+  transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+
+}
+
+.navigationbtn {
+  background-color: #ffff;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top:4rem;
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  text-align: center;
   cursor: pointer;
 }
 
-/* Bouton Nav Mobile */
-.hbgr {
-  width: 45px;
-  right: auto;
+.navigationicon {
+  position: relative;
+  margin-top: 3.5rem;
+  width: 3rem;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
 }
 
-input[type="checkbox"]:checked + ul{
-  display:flex;
-  flex-direction: column;
-  background-color:;
-  flex: auto;
-  }
+.navigationicon::before,
+.navigationicon::after {
+  width: 3rem;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all .2s;
+}
 
-/* Barre de Navigation */
-nav {
+.navigationicon::before {
+  top: -.8rem;
+}
+
+.navigationicon::after {
+  top: .8rem;
+}
+
+.nav {
+  height: 100vh;
+  position: fixed;
+  width: 0;
+  opacity: 0;
+  z-index: 1500;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navigationliste {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style-type: none;
+  text-align: center;
   width: 100%;
 }
-ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffd631;
+
+.liens {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'Anonymous Pro', monospace;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-ul {
-  display: none;
+.navigationcheckbox:checked ~ .navigationbg {
+  transform:scale(80);
 }
-li  {
 
-    color: #2a0a5e;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: bold;
-
+.navigationcheckbox:checked ~ .nav {
+  opacity: 1;
+  width: 100%
 }
+
+.navigationcheckbox:checked+ .navigationbtn .navigationicon {
+  background-color: transparent;
+}
+
+.navigationcheckbox:checked+ .navigationbtn .navigationicon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.navigationcheckbox:checked+ .navigationbtn .navigationicon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+/* Photos */
 .photo {
   background-color: #ffd631;
   width: 100%;
@@ -91,6 +188,42 @@ li  {
   color: #2a0a5e;
 }
 
+
+/* Coordonées */
+
+/* Présentation */
+
+.présentation {
+
+}
+.présentation h2 {
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+
+}
+
+.présentation p {
+  font-family: 'Anonymous Pro', monospace;
+
+}
+
+/* Compétences */
+.compétences h2 {
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+}
+
 .compétences li{
   background-color: white;
+}
+/* Expériences professsionnelles */
+.expro h2 {
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+/* Formations */
+.formation h2 {
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
 }
