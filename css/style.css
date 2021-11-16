@@ -9,7 +9,7 @@
   color: #777777
 }
 
-/* Bouton Header */
+/* Bouton CV Header */
 .button {
   text-align: center;
   padding-bottom: 25px;
@@ -55,12 +55,12 @@
 }
 
 .navigationbg {
-  height: 6rem;
-  width: 6rem;
+  height: 4rem;
+  width: 4rem;
   border-radius:50%;
   position: fixed;
-  top:4.5rem;
-  right:6.5rem;
+  top:1.5rem;
+  right:1.5rem;
   background-image: radial-gradient(#ffd631,#ffd631);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
@@ -69,12 +69,12 @@
 
 .navigationbtn {
   background-color: #ffff;
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
   position: fixed;
-  top:4rem;
-  right: 6rem;
-  border-radius: 50%;
+  top:1rem;
+  right: 1rem;
+  border-radius: 25%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -83,7 +83,7 @@
 
 .navigationicon {
   position: relative;
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
   width: 3rem;
   height: 2px;
   background-color: black;
@@ -111,7 +111,7 @@
 }
 
 .nav {
-  height: 100vh;
+  height: 50vh;
   position: fixed;
   width: 0;
   opacity: 0;
@@ -165,6 +165,7 @@
 
 /* Photos */
 .photo {
+  text-align: center;
   background-color: #ffd631;
   width: 100%;
   padding-bottom: 30px;
@@ -172,8 +173,9 @@
   margin: auto;
 }
 .photo img {
-  width: 60%;
+  width: 50%;
   margin: auto;
+  border-radius: 5px;
 }
 
 /* NOM et SUJET */
@@ -190,25 +192,37 @@
 
 
 /* Coordonées */
+.coord {
+  text-align: center;
+  color: #777777;
+
+}
+.coord img {
+  width: 50px;
+  text-align: center;
+}
 
 /* Présentation */
-
 .présentation {
+color: #777777
 
 }
 .présentation h2 {
+  color: #2a0a5e;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
 
 }
 
 .présentation p {
+  box-sizing: border-box;
+  padding: 1em;
   font-family: 'Anonymous Pro', monospace;
-
 }
 
 /* Compétences */
 .compétences h2 {
+  color: #2a0a5e;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
 }
@@ -218,12 +232,62 @@
 }
 /* Expériences professsionnelles */
 .expro h2 {
+  color: #2a0a5e;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
 }
 
+.expro h3 {
+  font-family: 'GlacialIndifferenceRegular';
+  color: #777777;
+  text-align: center;
+}
+
+.expro {
+  text-align: center;
+}
+
+.expro img {
+  width: 50%;
+
+}
+
 /* Formations */
+
+.formation {
+  text-align: center;
+}
+
 .formation h2 {
+  color: #2a0a5e;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
+}
+
+.formation h3 {
+  font-family: 'GlacialIndifferenceRegular';
+  text-align: center;
+  color: #777777;
+}
+
+.formation img {
+  width: 50%;
+}
+
+/* Centres d'intrérêt */
+.ci h2 {
+  color: #2a0a5e;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+}
+/* TOP */
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 25px;
 }
