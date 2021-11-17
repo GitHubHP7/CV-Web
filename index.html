@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Barlow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type=""/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference"/>
     <title>Curriculum vitæ Hugo Payen</title>
   </head>
   <body>
@@ -22,11 +22,11 @@
       </div>
       <!-- Bouton Header -->
       <div class="button">
-        <button class="button-31" role="button">Mon CV Papier</button>
+        <button class="button-31">Mon CV Papier</button>
       </div>
       <!-- Navigation -->
       <div class="navigation">
-        <input type="checkbox" class="navigationcheckbox" id="navi" name="" value="">
+        <input type="checkbox" class="navigationcheckbox" id="navi" name="navcheck" value="">
         <label for="navi" class="navigationbtn">
             <span class="navigationicon">&nbsp;</span>
         </label>
@@ -47,7 +47,7 @@
       </div>
     </header>
     <main>
-      <!-- TOP -->
+      <!-- Scroll TOP -->
       <div id="scroll_to_top">
         <a href="#top"><img src="img/tozetop.png" alt="Retourner en haut" /></a>
       </div>
@@ -59,23 +59,33 @@
       <!-- Coordonées -->
       <div class="coord">
         <!-- Téléphone -->
-        <a href="tel:0645157084"><img src="img/tel.png" alt=""></a>
-        <p><strong></strong>06 45 15 70 84</p>
+        <div class="clogo">
+          <a href="tel:0645157084"><img src="img/tel.png" alt=""></a>
+          <p><strong></strong>06 45 15 70 84</p>
+        </div>
         <!-- Mail -->
-        <a href="mailto:h.payen59@gmail.com"><img src="img/mail.png" alt=""></a>
-        <p>h.payen59@gmail.com</p>
-        <!-- Adresse -->
-        <a href="https://www.google.fr/maps/place/Avesnes-le-Sec/@50.24601,3.3550067,14z/data=!3m1!4b1!4m5!3m4!1s0x47c295a55be192b1:0xa59251e2436fe891!8m2!3d50.249327!4d3.374597"><img src="img/adresse.png" alt=""></a>
-        <p>59296, Avesnes le Sec</p>
+        <div class="clogo">
+          <a href="mailto:h.payen59@gmail.com"><img src="img/mailcircle.jpg" alt=""></a>
+          <p>h.payen59@gmail.com</p>
+        </div>
         <!-- Réseaux Sociaux -->
-        <a href=""><img src="img/linkedin.png" alt=""></a>
-        <a href="https://github.com/GitHubHP7"><img src="img/github.png" alt=""></a>
+        <div class="clogo">
+          <a href=""><img src="img/linkedin.png" alt=""></a>
+        </div>
+        <div class="clogo">
+          <a href="https://github.com/GitHubHP7"><img src="img/github.png" alt=""></a>
+        </div>
+        <!-- Adresse -->
+        <div class="cadresse">
+          <a href="https://www.google.fr/maps/place/Avesnes-le-Sec/@50.24601,3.3550067,14z/data=!3m1!4b1!4m5!3m4!1s0x47c295a55be192b1:0xa59251e2436fe891!8m2!3d50.249327!4d3.374597"><img src="img/adresse.png" alt=""></a>
+          <p>59296, Avesnes le Sec</p>
+        </div>
       </div>
       <!-- Présentation -->
       <div class="présentation">
         <h2>Qui suis-je ?</h2>
         <hr style="height:1px; color:black; background-color:black; width:50%" >
-        <p>Je suis un jeune homme de 25 ans passionné par le domaine de l'informatique après une Formation d'Assistance informatique je me suis orienté vers la programmation et le design informatique.</p>
+        <p>Je suis un jeune homme de 25 ans passionné par le domaine de l'informatique après une Formation de Technicien d'Assistance informatique je me suis orienté vers la programmation et le design informatique.</p>
       </div>
       <!-- Compétences -->
       <div class="compétences"  id=competencesl>
@@ -93,16 +103,16 @@
         <h2>Expériences Professionnelles</h2>
         <hr style="height:1px; color:black; background-color:black; width:50%" >
         <div class="ageval">
-          <h3>2021 - AUJOURD'HUI</h3>
-          <h3>ATELIER NUMERIQUE AGEVAL</h3>
+          <h3 class="date">2021 - AUJOURD'HUI</h3>
+          <h3 class="expvio">ATELIER NUMERIQUE AGEVAL</h3>
           <img src="img/ageval2.png" alt="">
         </div>
         <div class="esv">
-          <h3>2018 - 2019</h3>
-          <h3>STAGE CHEZ EUROSTYLE SYSTEM VALENCIENNES</h3>
+          <h3 class="date">2018 - 2019</h3>
+          <h3 class="expvio">STAGE CHEZ EUROSTYLE SYSTEM VALENCIENNES</h3>
           <img src="img/esv.png" alt="">
-          <h3>2018</h3>
-          <h3>STAGE CYBERBASE HASPRES</h3>
+          <h3 class="date">2018</h3>
+          <h3 class="expvio">STAGE CYBERBASE HASPRES</h3>
           <img src="img/cyberbase.png" alt="">
         </div>
       </div>
@@ -111,13 +121,13 @@
         <h2>Formations</h2>
         <hr style="height:1px; color:black; background-color:black; width:50%" >
         <div class="tai">
-          <h3>2018 - 2019</h3>
-          <h3>FORMATION D'ASSISTANCE INFORMATIQUE</h3>
+          <h3 class="datef">2018 - 2019</h3>
+          <h3 class="formvio">FORMATION TECHNICIEN D'ASSISTANCE INFORMATIQUE</h3>
           <img src="img/greta.jpg" alt="">
         </div>
         <div class="raismes">
-          <h3>2013 - 2016</h3>
-          <h3>LYCEE HORTICOLE DE RAISMES</h3>
+          <h3 class="datef">2013 - 2016</h3>
+          <h3 class="formvio">LYCEE HORTICOLE DE RAISMES</h3>
           <img src="img/lycee.png" alt="">
         </div>
       </div>
@@ -125,9 +135,14 @@
       <div class="ci" id=centres>
         <h2>CENTRES D'INTERETS</h2>
         <hr style="height:1px; color:black; background-color:black; width:50%" >
+        <p>Informatique</p>
+        <p>Nouvelles Technologies</p>
+        <p>Musique</p>
+        <p>Cinéma</p>
       </div>
     </main>
     <footer>
+      <p>Copyright© Hugo.P</p>
     </footer>
   </body>
 </html>
