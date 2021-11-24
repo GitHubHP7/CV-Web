@@ -1,6 +1,23 @@
+/* Color Barlow Black "Violet"  #2a0a5e
+        Anonymous Pro "Violet"  #2a0a5e
+        Anonymous Pro "Gris"  #777777
+        "Jaune" #ffd631 */
+
+/* RESPONSIVE MOBILE */
 * {
   width: 100%
 
+}
+/* Scroll TOP */
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 40px;
 }
 /* CV Header */
 .cv {
@@ -132,7 +149,7 @@
 .liens {
   display: inline-block;
   margin-top: 1rem;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   font-family: 'Anonymous Pro', monospace;
   color: #fff;
@@ -261,15 +278,55 @@ color: #777777
 }
 
 /* Compétences */
-.compétences h2 {
+
+.competences {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+.competences h2 {
   color: #2a0a5e;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
 }
 
-.compétences li{
-  background-color: white;
+.logocode {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  margin-top: 30px;
 }
+
+.logocode img {
+  width: 30%;
+}
+
+.logopsli {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  margin-top: 30px;
+}
+
+.logopsli img {
+  width: 30%;
+}
+/* .compétences li{
+  background-color: white;
+} */
+
+/* Portfolio */
+.portfolio {
+
+}
+
+.portfolio h2 {
+  color: #2a0a5e;
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+}
+
 /* Expériences professsionnelles */
 .expro h2 {
   color: #2a0a5e;
@@ -345,11 +402,46 @@ color: #777777
 }
 
 /* Centres d'intrérêt */
+
+.centreflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.iconordi {
+  /* width: 50px; */
+  text-align: center;
+  width: 46%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.iconordi img {
+  width: 40%;
+}
+
+.iconcine {
+  /* width: 50px; */
+  text-align: center;
+  width: 46%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.iconcine img {
+  width: 40%;
+}
 .ci h2 {
   color: #2a0a5e;
   font-family: 'Anonymous Pro', monospace;
   text-align: center;
   padding-top: 30px;
+}
+
+.ci img {
+  /* width: 20%; */
 }
 
 /* Footer */
@@ -362,14 +454,7 @@ footer {
 footer p {
   padding-top: 17px;
 }
-/* Scroll TOP */
-#scroll_to_top {
-  position: fixed;
-  width: 25px;
-  height: 25px;
-  bottom: 50px;
-  right: 30px;
-}
-#scroll_to_top img {
-  width: 40px;
-}
+
+
+
+/* FIN RESPONSIVE MOBILE */
