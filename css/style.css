@@ -229,34 +229,17 @@
   padding: 10px;
 }
 
-/* .ctelephone {
-width: 50%;
-text-align:center;
-
-}
-
-.cmail {
-width: 50%;
-text-align:center;
-} */
-
 .cadresse {
 width: 50%;
 text-align:center;
 width: 100%;
 }
 
-/* .clinkedin {
-width: 50%;
-text-align:center;
-display: flex;
-} */
-
 .cgithub {
 width: 100%;
 }
 .coord img {
-  width: 50px;
+  width: 70px;
 }
 
 /* Présentation */
@@ -302,14 +285,22 @@ color: #777777
   width: 30%;
 }
 
-.logopsli {
+.logodesign {
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap; */
   margin-top: 30px;
 }
 
-.logopsli img {
+.logodesign img {
+  width: 30%;
+}
+
+.logoassistance {
+  margin-top: 10%;
+}
+
+.logoassistance img {
   width: 30%;
 }
 /* .compétences li{
@@ -344,7 +335,6 @@ color: #777777
   text-align: left;
   padding-left: 15px;
   box-sizing: border-box;
-
 }
 
 .date {
@@ -363,7 +353,6 @@ color: #777777
 .expro img {
   width: 50%;
   padding-top: 30px;
-
 }
 
 /* Formations */
@@ -407,7 +396,6 @@ color: #777777
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .iconordi {
@@ -458,3 +446,20 @@ footer p {
 
 
 /* FIN RESPONSIVE MOBILE */
+
+/* RESPONSIVE TABLETTE */
+@media screen and (min-width: 685px) {
+
+/* Coordonées Tablette */
+.coord {
+ display: flex;
+ flex-direction:row;
+ flex-wrap: nowrap;
+}
+
+.coord img {
+  width: 150px;
+}
+/* Mail Tablette */
+
+}
