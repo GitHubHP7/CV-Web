@@ -34,6 +34,8 @@
         <nav class="nav">
           <ul class="navigationliste">
             <li class="navigationitem"><a href="#competences" class="liens">Compétences</a></li>
+            <li class="navigationitem"><a
+              href="#portf" class="liens">Portfolio</a></li>
             <li class="navigationitem"><a href="#exp" class="liens">Expériences Professionnelles</a></li>
             <li class="navigationitem"><a href="#formation" class="liens">Formations</a></li>
             <li class="navigationitem"><a href="#centres" class="liens">Centres d'Intérêts</a></li>
@@ -50,6 +52,16 @@
       <!-- Scroll TOP -->
       <div id="scroll_to_top">
         <a href="#top"><img src="img/tozetop.png" alt="Retourner en haut" /></a>
+      </div>
+      <!-- Navigation PC -->
+      <div class="navpc">
+        <ul class="navigationlistePC">
+          <li class="navigationitemPC"><a href="#competences">Compétences</li>
+          <li class="navigationitemPC"><a href="#portf">Portfolio</li>
+          <li class="navigationitemPC"><a href="#exp">Expérience Professionnelles</li>
+          <li class="navigationitemPC"><a href="#formation">Formation</li>
+          <li class="navigationitemPC"><a href="#centres">Centres d'Intérêts</li>
+        </ul>
       </div>
       <!-- Nom et SUJET -->
       <div class="titre">
@@ -91,93 +103,60 @@
       <div class="competences"  id=competencesl>
         <h2>Compétences</h2>
         <hr style="height:1px; color:black; background-color:black; width:150px" >
-        <!-- <div class="logocode">
-          <img src="img/html5.png" alt="">
-          <img src="img/css3.png" alt="">
-          <img src="img/js.png" alt="">
-        </div>
-        <div class="logodesign">
-          <img src="img/ps.png" alt="">
-        </div>
-        <div class="logoassistance">
-          <img src="img/repapc.png"
-           alt="">
-           <img src="img/assistant.png" alt="">
-           <img src="img/linux.png" alt="">
-        </div> -->
+
       </div>
-      <!-- Test Card -->
-      <div class="container">
-        <div class="card">
+      <!--Cartes -->
+      <div class="ensemble-cartes">
+        <!-- Carte 1 -->
+        <div class="cartes">
           <div class="card-header">
-            <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+            <img src="img/cartecode.jpg" alt="rover" />
           </div>
           <div class="card-body">
-            <span class="tag tag-teal">Technology</span>
-            <h4>
-              Ceci est un test
-            </h4>
-            <p>
-              An exploration into the truck's polarising design
-            </p>
-            <div class="user">
-              <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" />
-              <div class="user-info">
-                <h5>July Dec</h5>
-                <small>2h ago</small>
-              </div>
-            </div>
+            <span class="tag tag-teal">Developpement Web</span>
+            <br>
+            <br>
+              <!-- Compétences dans la carte : -->
+            <li>HTML / CSS</li>
+            <li>Création d'un site Web </li>
+            <li>Création d'un CV Web</li>
           </div>
         </div>
-           <!-- Card 2 -->
-        <div class="card">
+           <!-- Cartes 2 -->
+        <div class="cartes">
           <div class="card-header">
-            <img src="https://www.newsbtc.com/wp-content/uploads/2020/06/mesut-kaya-LcCdl__-kO0-unsplash-scaled.jpg" alt="ballons" />
+            <img src="img/cartedesign.jpg" alt="ballons" />
           </div>
           <div class="card-body">
-            <span class="tag tag-purple">Popular</span>
-            <h4>
-              How to Keep Going When You Don’t Know What’s Next
-            </h4>
-            <p>
-              The future can be scary, but there are ways to
-              deal with that fear.
-            </p>
-        <div class="user">
-          <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8sn9zF15pW59JIYiLgx3PQ3EyZLFp5Zqao906l=s32-c-mo" alt="user" />
-          <div class="user-info">
-            <h5>Eyup Ucmaz</h5>
-            <small>Yesterday</small>
+            <span class="tag tag-purple">DESIGN</span>
+            <br>
+            <br>
+              <!-- Compétences dans la carte : -->
+
+            <li>Photoshop</li>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="card">
-      <div class="card-header">
-        <img src="https://images6.alphacoders.com/312/thumb-1920-312773.jpg" alt="city" />
-      </div>
-      <div class="card-body">
-        <span class="tag tag-pink">Design</span>
-        <h4>
-          10 Rules of Dashboard Design
-        </h4>
-        <p>
-          Dashboard Design Guidelines
-        </p>
-        <div class="user">
-          <img src="https://studyinbaltics.ee/wp-content/uploads/2020/03/3799Ffxy.jpg" alt="user" />
-        <div class="user-info">
-          <h5>Carrie Brewer</h5>
-          <small>1w ago</small>
+        <!-- Carte 3 -->
+        <div class="cartes">
+          <div class="card-header">
+            <img src="img/carteassistance.jpg" alt="city" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink">Assistance / Technique</span>
+            <br>
+            <br>
+          <!-- Compétences dans la carte : -->
+          <li>Maintenance / Réparation PC</li>
+          <li>Assistance Utilisateurs</li>
+          <li>Linux</li>
+          <li>Windows Server</li>
+
+        </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
       <!-- Portfolio -->
-      <div class="portfolio">
-        <h2>Portefolio</h2>
+      <div class="portfolio" id=portf>
+        <h2>Portfolio</h2>
         <hr style="height:1px; color:black; background-color:black; width:180px" >
       </div>
       <!-- Expériences Professionnelles -->
