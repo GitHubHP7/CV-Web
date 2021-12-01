@@ -578,15 +578,46 @@ width:50%;
   }
 
   .navpc  {
-    display: flex;
-    flex-direction: row;
+    display:block;
+    background-color: #2a0a5e;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 40%);
+
   }
 
   .navigationlistePC  {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    max-width: 1280px;
+    margin: auto;
   }
 
+  .navpc ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a0a5e;
+  }
+
+  .navpc li a {
+    display: inline-block;
+    color: white;
+    /* text-align: left;
+    padding: 8px 16px; */
+
+  }
+
+  .navpc li {
+    border-right: 1px solid #ffd631;
+    text-align: center;
+    width: calc(100%/5);
+    padding:15px;
+    background-color: #2a0a5e;
+  }
+
+  li a:hover {
+    background-color: #ffd631;
+  }
 
 }
