@@ -545,7 +545,7 @@ footer p {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: #2f363e;
+  background-color: #2a0a5e;
 	left: 7px;
 	}
 
@@ -563,7 +563,7 @@ footer p {
   .timeline-dot {
       height: 16px;
       width: 16px;
-      background-color: #eaa023;
+      background-color: #ffd631;
       position: absolute;
       left: 0;
       border-radius: 50%;
@@ -575,11 +575,12 @@ footer p {
   }
   .timeline-date{
   	font-size: 18px;
-  	color: #eaa023;
+  	color: #ffd631;
   	margin:6px 0 15px;
   }
   .timeline-content{
-    background-color: #2f363e;
+    /* background-color: #2f363e; */
+    background-color: #2a0a5e;
   	padding: 30px;
   	border-radius: 5px;
   }
@@ -601,7 +602,8 @@ footer p {
   	width: 100%;
   	position: relative;
   }
-  /* fin timeline */
+  /* FIN TIMELINE */
+  
 /* FIN RESPONSIVE MOBILE */
 
 /* RESPONSIVE TABLETTE */
