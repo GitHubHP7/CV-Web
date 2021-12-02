@@ -10,6 +10,9 @@
   margin: auto; */
 }
 
+*{
+  box-sizing: border-box;
+}
 /* Scroll TOP */
 #scroll_to_top {
   position: fixed;
@@ -271,7 +274,7 @@ color: #777777
 
 .competences {
   text-align: center;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   flex-wrap: wrap
 }
@@ -434,6 +437,8 @@ h4 {
 }
 
 /* Formations */
+
+
 .formation {
   text-align: center;
 }
@@ -522,30 +527,119 @@ footer p {
   padding-top: 17px;
 }
 
+/* TIMELINE */
+.timeline-section {
+    min-height: 100vh;
+    padding: 100px 15px;
+}
+.timeline-items {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
 
+.timeline-items::before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #2f363e;
+	left: 7px;
+	}
 
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+
+  .timeline-item {
+      margin-bottom: 40px;
+      width: 100%;
+      position: relative;
+  }
+
+  .timeline-dot {
+      height: 16px;
+      width: 16px;
+      background-color: #eaa023;
+      position: absolute;
+      left: 0;
+      border-radius: 50%;
+      top: 10px;
+  }
+  .timeline-item:nth-child(odd), .timeline-item:nth-child(even) {
+      padding-right: 0;
+      text-align: left;
+  }
+  .timeline-date{
+  	font-size: 18px;
+  	color: #eaa023;
+  	margin:6px 0 15px;
+  }
+  .timeline-content{
+    background-color: #2f363e;
+  	padding: 30px;
+  	border-radius: 5px;
+  }
+  .timeline-content h3{
+    font-size: 20px;
+  	color: #ffffff;
+  	margin:0 0 10px;
+  	text-transform: capitalize;
+  	font-weight: 500;
+  }
+  .timeline-content p{
+    color: #c8c8c8;
+  	font-size: 16px;
+  	font-weight: 300;
+  	line-height: 22px;
+  }
+  .timeline-item{
+  	margin-bottom: 40px;
+  	width: 100%;
+  	position: relative;
+  }
+  /* fin timeline */
 /* FIN RESPONSIVE MOBILE */
 
 /* RESPONSIVE TABLETTE */
 @media screen and (min-width: 768px)  {
 
-/* Coordonées Tablette */
-.coord {
- display: flex;
- flex-direction:row;
- flex-wrap: nowrap;
-}
+  /* Coordonées Tablette */
+  .coord {
+   display: flex;
+   flex-direction:row;
+   flex-wrap: nowrap;
+  }
+  .coord img {
+    width: 70px;
+  }
+  .cadresse {
+  width:50%;
+  }
 
-.coord img {
-  width: 70px;
-}
+  /* Début Timeline */
+  .timeline-items::before{
+  	left: calc(50% - 1px);
+  }
 
-.cadresse {
-width:50%;
+  .timeline-item:last-child{
+  	margin-bottom: 0;
+  }
+  .timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+  	text-align: right;
+  }
+  .timeline-item:nth-child(even){
+      padding-left: calc(50% + 30px);
+  }
+  .timeline-dot{
+    left:calc(50% - 8px);
+  }
+  /* Fin Timeline */
 }
-
-}
-
 /* FIN RESPONSIVE TABLETTE */
 
 /* RESPONSIVE DESKTOP */
@@ -560,30 +654,22 @@ width:50%;
   .nav {
     display: flex;
     flex-direction: row;
-    opacity: ;
-    z-index: ;
-
   }
-
   .photo img {
     width: 15%;
-
   }
-
   a {
-  text-decoration: none;}
-
+  text-decoration: none;
+  }
   ul {
     list-style-type: none;
   }
-
   .navpc  {
     display:block;
     background-color: #2a0a5e;
     position: sticky;
     top: 0;
     box-shadow: 0 2px 20px rgb(0 0 0 / 40%);
-
   }
 
   .navigationlistePC  {
@@ -605,7 +691,6 @@ width:50%;
     color: white;
     /* text-align: left;
     padding: 8px 16px; */
-
   }
 
   .navpc li {
