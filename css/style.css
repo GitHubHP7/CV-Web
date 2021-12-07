@@ -604,6 +604,33 @@ footer p {
   }
   /* FIN TIMELINE */
 
+  /* Portfolio */
+  .gal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    width: 80%;
+    max-width: 1280px;
+    margin: 70px auto 0;
+    /* background: #2a0a5e; */
+  }
+
+
+  .imggal {
+    width: 300px;
+    /* height: 200px; */
+    margin: 10px;
+    /* overflow: hidden; */
+    /* flex-shrink: 0; */
+  }
+
+  .gal img {
+    width: 100%;
+    height: auto;
+  }
+  /* FIN Portfolio */
+
 /* FIN RESPONSIVE MOBILE */
 
 /* RESPONSIVE TABLETTE */
@@ -703,8 +730,13 @@ footer p {
     background-color: #2a0a5e;
   }
 
+
+
+
   li a:hover {
     background-color: #ffd631;
   }
+
+
 
 }
