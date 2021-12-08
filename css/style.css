@@ -479,32 +479,21 @@ h4 {
 .centreflex {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-.iconordi {
-  /* width: 50px; */
+ .iconordi {
   text-align: center;
-  width: 46%;
+  width: 360px;
   box-sizing: border-box;
   padding: 10px;
+  margin: auto;
 }
 
 .iconordi img {
-  width: 40%;
+  width: 24%;
 }
 
-.iconcine {
-  /* width: 50px; */
-  text-align: center;
-  width: 46%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-.iconcine img {
-  width: 40%;
-}
 .ci h2 {
   color: #2a0a5e;
   font-family: 'Anonymous Pro', monospace;
@@ -512,15 +501,11 @@ h4 {
   padding-top: 30px;
 }
 
-.ci img {
-  /* width: 20%; */
-}
-
 /* Footer */
 footer {
   text-align:center;
   background-color: #ffd631;
-  height: 50px;
+  height: 70px;
 }
 
 footer p {
@@ -673,6 +658,12 @@ footer p {
 
 /* RESPONSIVE DESKTOP */
 @media screen and (min-width:1024px) {
+
+/* Bouton CV PAPIER */
+  .button {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
 /* Nav Desktop */
   .navigationbtn {
     display: none;
@@ -699,6 +690,7 @@ footer p {
     position: sticky;
     top: 0;
     box-shadow: 0 2px 20px rgb(0 0 0 / 40%);
+    z-index: 1000;
   }
 
   .navigationlistePC  {
@@ -723,7 +715,6 @@ footer p {
   }
 
   .navpc li {
-    border-right: 1px solid #ffd631;
     text-align: center;
     width: calc(100%/4);
     padding:15px;
@@ -731,12 +722,38 @@ footer p {
   }
 
 
-
-
   li a:hover {
-    background-color: #ffd631;
+    /* background-color: #ffd631; */
+    border-bottom: #ffd361 1px solid;
+
   }
 
+  .navpc li:hover {
+    /* background-color: #ffd631; */
+  }
 
+.trait {
+      border-right: 1px solid #ffd631;
+}
 
+.coord {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Présentation */
+.présentation  {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* Compétences */
+.competences {
+  /* max-width: 1280px; */
+}
+
+/* Cartes */
+.ensemble-cartes {
+  max-width: 1280px;
+  margin:0 auto;
+}
 }
