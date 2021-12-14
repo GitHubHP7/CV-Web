@@ -483,32 +483,6 @@ h4 {
   margin-top: 45px;
 }
 
-/* Centres d'intrérêt */
-
-.centreflex {
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-}
-
- .iconordi {
-  text-align: center;
-  width: 360px;
-  box-sizing: border-box;
-  padding: 10px;
-  margin: auto;
-}
-
-.iconordi img {
-  width: 24%;
-}
-
-.ci h2 {
-  color: #2a0a5e;
-  font-family: 'Anonymous Pro', monospace;
-  text-align: center;
-  padding-top: 30px;
-}
 
 
 
@@ -627,6 +601,32 @@ footer p {
   }
   /* FIN Portfolio */
 
+  /* Centres d'intrérêt Mobile */
+
+  .centreflex {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+
+  .iconordi {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .iconordi img {
+    width: 24%;
+  }
+
+  .ci h2 {
+    color: #2a0a5e;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    padding-top: 30px;
+  }
 
 /* FIN RESPONSIVE MOBILE */
 
@@ -665,8 +665,15 @@ footer p {
     left:calc(50% - 8px);
   }
   /* Fin Timeline */
+
+ /* Centre d'intérêts Tablette */
+  .iconordi {
+    width: 70%;
+  }
 }
 /* FIN RESPONSIVE TABLETTE */
+
+
 
 /* RESPONSIVE DESKTOP */
 @media screen and (min-width:1024px) {
@@ -767,5 +774,10 @@ footer p {
 .ensemble-cartes {
   max-width: 1280px;
   margin:0 auto;
+}
+
+/* Centres d'intérêts Desktop*/
+.iconordi {
+  width: 35%;
 }
 }
