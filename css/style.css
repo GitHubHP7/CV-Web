@@ -218,6 +218,8 @@ html {
   text-align: center;
   font-family: 'Barlow', sans-serif;
   color: #2a0a5e;
+  text-decoration: none;
+
 }
 .titre h2 {
   text-align: center;
@@ -350,16 +352,16 @@ h4 {
 
 .card-body p {
   font-size: 16px;
-  margin: 0 0 40px;
+  /* margin: 0 0 40px; */
   font-family:'Anonymous Pro', monospace;
   color: #777777;
 }
 
-.cartes li {
+/* .cartes li {
   color : #777777;
   list-style-type: none;
   font-family: 'Anonymous Pro', monospace;
-}
+} */
 
 /* Fin Card */
 
@@ -508,6 +510,8 @@ h4 {
   padding-top: 30px;
 }
 
+
+
 /* Footer */
 footer {
   text-align:center;
@@ -602,7 +606,7 @@ footer p {
     justify-content: center;
     flex-wrap: wrap;
     flex-basis: auto;
-    width: 80%;
+    /* width: 80%; */
     max-width: 1280px;
     margin: 70px auto 0;
     /* background: #2a0a5e; */
@@ -622,6 +626,7 @@ footer p {
     height: auto;
   }
   /* FIN Portfolio */
+
 
 /* FIN RESPONSIVE MOBILE */
 
