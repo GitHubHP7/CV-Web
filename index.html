@@ -39,11 +39,11 @@
         <div class="navigationbg">&nbsp;</div>
         <nav class="nav">
           <ul class="navigationliste">
-            <li class="navigationitem"><a href="#competences" class="liens">Compétences</a></li>
+            <li class="navigationitem"onclick="triggerOff()"><a href="#competences"  class="liens">Compétences</a></li>
             <li class="navigationitem"><a
-              href="#exp"  class="liens">Parcours</a></li>
-            <li class="navigationitem"><a href="#portf" class="liens">Portfolio</a></li>
-            <li class="navigationitem"><a href="#centres" class="liens">Centres d'Intérêts</a></li>
+              href="#exp" onclick="triggerOff()" class="liens">Parcours</a></li>
+            <li class="navigationitem"><a href="#portf" onclick="triggerOff()" class="liens">Portfolio</a></li>
+            <li class="navigationitem"><a href="#centres"  class="liens" onclick="triggerOff()" >Centres d'Intérêts</a></li>
           </ul>
         </nav>
       </div>
@@ -75,24 +75,24 @@
       <div class="coord">
         <!-- Téléphone -->
         <div class="clogo">
-          <a href="tel:0645157084"><img src="img/telR.webp" alt=""></a>
+          <a href="tel:0645157084"><img src="img/telR.webp" alt="tel"></a>
           <p><strong></strong>06 45 15 70 84</p>
         </div>
         <!-- Mail -->
         <div class="clogo">
-          <a href="mailto:h.payen59@gmail.com" target="_blank"><img src="img/mailcircleR.webp" alt=""></a>
+          <a href="mailto:h.payen59@gmail.com" target="_blank"><img src="img/mailcircleR.webp" alt="mail"></a>
           <p>h.payen59@gmail.com</p>
         </div>
         <!-- Réseaux Sociaux -->
         <div class="clogo">
-          <a href="https://www.linkedin.com/in/hugopayen/" target="_blank"><img src="img/linkedinR.webp" alt=""></a>
+          <a href="https://www.linkedin.com/in/hugopayen/" target="_blank"><img src="img/linkedinR.webp" alt="linkedin"></a>
         </div>
         <div class="clogo">
-          <a href="https://github.com/GitHubHP7" target="_blank"><img src="img/githubR.webp" alt=""></a>
+          <a href="https://github.com/GitHubHP7" target="_blank"><img src="img/githubR.webp" alt="github"></a>
         </div>
         <!-- Adresse -->
         <div class="clogo cadresse">
-          <a href="https://www.google.fr/maps/place/Avesnes-le-Sec/@50.24601,3.3550067,14z/data=!3m1!4b1!4m5!3m4!1s0x47c295a55be192b1:0xa59251e2436fe891!8m2!3d50.249327!4d3.374597" target="_blank"><img src="img/homeR.webp" alt=""></a>
+          <a href="https://www.google.fr/maps/place/Avesnes-le-Sec/@50.24601,3.3550067,14z/data=!3m1!4b1!4m5!3m4!1s0x47c295a55be192b1:0xa59251e2436fe891!8m2!3d50.249327!4d3.374597" target="_blank"><img src="img/homeR.webp" alt="adresse"></a>
           <!-- <p>59296, Avesnes le Sec</p> -->
         </div>
       </div>
@@ -103,7 +103,7 @@
         <p>Je suis un jeune homme de 25 ans passionné par le domaine de l'informatique après une Formation de Technicien d'Assistance informatique je me suis orienté vers la programmation et le design informatique.</p>
       </div>
       <!-- Compétences -->
-      <div class="competences"  id=competencesl>
+      <div class="competences"  id="competences">
         <h2>Compétences</h2>
         <hr style="height:1px; color:black; background-color:black; width:150px" >
 
@@ -232,16 +232,16 @@
     <!-- Mosaïque -->
       <div class="gal">
         <div class="imggal">
-          <img src="img/sharringaneyes.webp" alt="">
+          <img src="img/sharringaneyes.webp" alt="sharringan">
         </div>
         <div class="imggal">
-          <img src="img/affiche-ageval2.webp" alt="">
+          <img src="img/affiche-ageval2.webp" alt="ageval">
         </div>
         <div class="imggal">
-          <img src="img/affiche-ageval.webp" alt="">
+          <img src="img/affiche-ageval.webp" alt="ageval">
         </div>
         <div class="imggal">
-          <img src="img/fusée-photoshop.webp" alt="">
+          <img src="img/fusée-photoshop.webp" alt="fusée">
         </div>
         <!-- <div class="imggal">
           <img src="img/sharringaneyes.jpg" alt="">
@@ -276,10 +276,10 @@
         <hr style="height:1px; color:black; background-color:black; width:180px" >
         <div class="centreflex">
           <div class="iconordi">
-            <img src="img/ordi.webp" alt="">
-            <img src="img/tech.webp" alt="">
-            <img src="img/cine.webp" alt="">
-            <img src="img/music.webp" alt="">
+            <img src="img/ordi.webp" alt="ordi">
+            <img src="img/tech.webp" alt="tech">
+            <img src="img/cine.webp" alt="cine">
+            <img src="img/music.webp" alt="music">
           </div>
         </div>
       </div>
@@ -288,5 +288,8 @@
       <p>Copyright© Hugo.P</p>
       <!-- <img src="" alt=""> -->
     </footer>
+    <script src="js/main.js">
+
+    </script>
   </body>
 </html>
