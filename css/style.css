@@ -546,11 +546,9 @@ footer p {
   .timeline-date{
     font-family: 'Anonymous Pro', monospace;
   	font-size: 18px;
+    font-weight: bold;
   	color: #ffd631;
   	margin:6px 0 15px;
-  }
-  .timeline-date span{
-    background: #2a0a5e;
   }
   .timeline-content{
     /* background-color: #2f363e; */
