@@ -1,210 +1,214 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <!-- font-family: 'Anonymous Pro', monospace;
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <!-- font-family: 'Anonymous Pro', monospace;
         font-family: 'Barlow', sans-serif;
         font-family: 'GlacialIndifferenceRegular'; -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Barlow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference"/>
-    <title>Curriculum vitæ Hugo Payen</title>
-  </head>
-  <body>
-    <header>
-      <!-- CV Header -->
-      <div class="cv">
-        <p>Curriculum vitæ</p>
-      </div>
-      <!-- Bouton Header -->
-      <div class="button" style="text-align: center">
-        <a href="Hugop.pdf" target="_blank" class="button-31">
-          Mon CV Papier
-        </a>
-      </div>
-      <!-- Navigation Mobile / Tablettes-->
-      <div class="navigation">
-        <input type="checkbox" class="navigationcheckbox" id="navi" name="navcheck" value="">
-        <label for="navi" class="navigationbtn">
-            <span class="navigationicon">&nbsp;</span>
-        </label>
-        <div class="navigationbg">&nbsp;</div>
-        <nav class="nav">
-          <ul class="navigationliste">
-            <li class="navigationitem"onclick="triggerOff()"><a href="#competences"  class="liens">Compétences</a></li>
-            <li class="navigationitem"><a
-              href="#exp" onclick="triggerOff()" class="liens">Parcours</a></li>
-            <li class="navigationitem"><a href="#portf" onclick="triggerOff()" class="liens">Portfolio</a></li>
-            <li class="navigationitem"><a href="#centres"  class="liens" onclick="triggerOff()" >Centres d'Intérêts</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- Ma Photo -->
-      <div class="photo">
-        <img src="img/maphoto.webp" alt="maphoto">
-      </div>
-    </header>
-    <main>
-      <!-- Scroll TOP -->
-      <div id="scroll_to_top">
-        <a href="#top"><img src="img/tozetop.webp" alt="Retourner en haut" /></a>
-      </div>
-      <!-- Navigation PC -->
-      <div class="navpc">
-        <ul class="navigationlistePC">
-          <li class="navigationitemPC trait"><a href="#competences">Compétences</a></li>
-          <li class="navigationitemPC trait"><a href="#exp">Parcours</a></li>
-          <li class="navigationitemPC trait"><a href="#portf">Portfolio</a></li>
-          <li class="navigationitemPC" ><a href="#centres">Centres d'Intérêts</a></li>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Barlow&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" />
+  <title>Curriculum vitæ Hugo Payen</title>
+</head>
+
+<body>
+  <header>
+    <!-- CV Header -->
+    <div class="cv">
+      <p>Curriculum vitæ</p>
+    </div>
+    <!-- Bouton Header -->
+    <div class="button" style="text-align: center">
+      <a href="Hugop.pdf" target="_blank" class="button-31">
+        Mon CV Papier
+      </a>
+    </div>
+    <!-- Navigation Mobile / Tablettes-->
+    <div class="navigation">
+      <input type="checkbox" class="navigationcheckbox" id="navi" name="navcheck" value="">
+      <label for="navi" class="navigationbtn">
+        <span class="navigationicon">&nbsp;</span>
+      </label>
+      <div class="navigationbg">&nbsp;</div>
+      <nav class="nav">
+        <ul class="navigationliste">
+          <li class="navigationitem" onclick="triggerOff()"><a href="#competences" class="liens">Compétences</a></li>
+          <li class="navigationitem"><a href="#exp" onclick="triggerOff()" class="liens">Parcours</a></li>
+          <li class="navigationitem"><a href="#portf" onclick="triggerOff()" class="liens">Portfolio</a></li>
+          <li class="navigationitem"><a href="#centres" class="liens" onclick="triggerOff()">Centres d'Intérêts</a></li>
         </ul>
+      </nav>
+    </div>
+    <!-- Ma Photo -->
+    <div class="photo">
+      <img src="img/maphoto.webp" alt="maphoto">
+    </div>
+  </header>
+  <main>
+    <!-- Scroll TOP -->
+    <div id="scroll_to_top">
+      <a href="#top"><img src="img/tozetop.webp" alt="Retourner en haut" /></a>
+    </div>
+    <!-- Navigation PC -->
+    <div class="navpc">
+      <ul class="navigationlistePC">
+        <li class="navigationitemPC trait"><a href="#competences">Compétences</a></li>
+        <li class="navigationitemPC trait"><a href="#exp">Parcours</a></li>
+        <li class="navigationitemPC trait"><a href="#portf">Portfolio</a></li>
+        <li class="navigationitemPC"><a href="#centres">Centres d'Intérêts</a></li>
+      </ul>
+    </div>
+    <!-- Nom et SUJET -->
+    <div class="titre">
+      <h1>HUGO PAYEN</h1>
+      <h2>Intégrateur Web Junior</h2>
+    </div>
+    <!-- Coordonées -->
+    <div class="coord">
+      <!-- Téléphone -->
+      <div class="clogo">
+        <a href="tel:0645157084"><img src="img/telR.webp" alt="tel"></a>
+        <p><strong></strong>06 45 15 70 84</p>
       </div>
-      <!-- Nom et SUJET -->
-      <div class="titre">
-        <h1>HUGO PAYEN</h1>
-        <h2>Intégrateur Web Junior</h2>
+      <!-- Mail -->
+      <div class="clogo">
+        <a href="mailto:h.payen59@gmail.com" target="_blank"><img src="img/mailcircleR.webp" alt="mail"></a>
+        <p>h.payen59@gmail.com</p>
       </div>
-      <!-- Coordonées -->
-      <div class="coord">
-        <!-- Téléphone -->
-        <div class="clogo">
-          <a href="tel:0645157084"><img src="img/telR.webp" alt="tel"></a>
-          <p><strong></strong>06 45 15 70 84</p>
-        </div>
-        <!-- Mail -->
-        <div class="clogo">
-          <a href="mailto:h.payen59@gmail.com" target="_blank"><img src="img/mailcircleR.webp" alt="mail"></a>
-          <p>h.payen59@gmail.com</p>
-        </div>
-        <!-- Réseaux Sociaux -->
-        <div class="clogo">
-          <a href="https://www.linkedin.com/in/hugopayen/" target="_blank"><img src="img/linkedinR.webp" alt="linkedin"></a>
-        </div>
-        <div class="clogo">
-          <a href="https://github.com/GitHubHP7" target="_blank"><img src="img/githubR.webp" alt="github"></a>
-        </div>
-        <!-- Adresse -->
-        <div class="clogo cadresse">
-          <a href="https://www.google.fr/maps/place/Avesnes-le-Sec/@50.24601,3.3550067,14z/data=!3m1!4b1!4m5!3m4!1s0x47c295a55be192b1:0xa59251e2436fe891!8m2!3d50.249327!4d3.374597" target="_blank"><img src="img/homeR.webp" alt="adresse"></a>
-          <!-- <p>59296, Avesnes le Sec</p> -->
-        </div>
+      <!-- Réseaux Sociaux -->
+      <div class="clogo">
+        <a href="https://www.linkedin.com/in/hugopayen/" target="_blank"><img src="img/linkedinR.webp"
+            alt="linkedin"></a>
       </div>
-      <!-- Présentation -->
-      <div class="présentation">
-        <h2>Qui suis-je ?</h2>
-        <hr style="height:1px; color:black; background-color:black; width:160px" >
-        <p>Je suis un jeune homme de 25 ans passionné par le domaine de l'informatique après une Formation de Technicien d'Assistance informatique je me suis orienté vers la programmation et le design informatique.</p>
+      <div class="clogo">
+        <a href="https://github.com/GitHubHP7" target="_blank"><img src="img/githubR.webp" alt="github"></a>
       </div>
-      <!-- Compétences -->
-      <div class="competences"  id="competences">
-        <h2>Compétences</h2>
-        <hr style="height:1px; color:black; background-color:black; width:150px" >
+      <!-- Adresse -->
+      <div class="clogo cadresse">
+        <a href="https://www.google.fr/maps/place/Avesnes-le-Sec/@50.24601,3.3550067,14z/data=!3m1!4b1!4m5!3m4!1s0x47c295a55be192b1:0xa59251e2436fe891!8m2!3d50.249327!4d3.374597"
+          target="_blank"><img src="img/homeR.webp" alt="adresse"></a>
+        <!-- <p>59296, Avesnes le Sec</p> -->
+      </div>
+    </div>
+    <!-- Présentation -->
+    <div class="présentation">
+      <h2>Qui suis-je ?</h2>
+      <hr style="height:1px; color:black; background-color:black; width:160px">
+      <p>Je suis un jeune homme de 25 ans passionné par le domaine de l'informatique après une Formation de Technicien
+        d'Assistance informatique je me suis orienté vers la programmation et le design informatique.</p>
+    </div>
+    <!-- Compétences -->
+    <div class="competences" id="competences">
+      <h2>Compétences</h2>
+      <hr style="height:1px; color:black; background-color:black; width:150px">
 
+    </div>
+    <!--Cartes -->
+    <div class="ensemble-cartes">
+      <!-- Carte 1 -->
+      <div class="cartes">
+        <div class="card-header">
+          <img src="img/cartecode.webp" alt="rover" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Developpement Web</span>
+          <br>
+          <br>
+          <!-- Compétences dans la carte : -->
+          <p>HTML / CSS</p>
+          <p>Création d'un site Web </p>
+          <p>Création d'un CV Web</p>
+        </div>
       </div>
-      <!--Cartes -->
-      <div class="ensemble-cartes">
-        <!-- Carte 1 -->
-        <div class="cartes">
-          <div class="card-header">
-            <img src="img/cartecode.webp" alt="rover" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-teal">Developpement Web</span>
-            <br>
-            <br>
-              <!-- Compétences dans la carte : -->
-            <p>HTML / CSS</p>
-            <p>Création d'un site Web </p>
-            <p>Création d'un CV Web</p>
-          </div>
+      <!-- Cartes 2 -->
+      <div class="cartes">
+        <div class="card-header">
+          <img src="img/cartedesign.webp" alt="ballons" />
         </div>
-           <!-- Cartes 2 -->
-        <div class="cartes">
-          <div class="card-header">
-            <img src="img/cartedesign.webp" alt="ballons" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-purple">DESIGN</span>
-            <br>
-            <br>
-              <!-- Compétences dans la carte : -->
+        <div class="card-body">
+          <span class="tag tag-purple">DESIGN</span>
+          <br>
+          <br>
+          <!-- Compétences dans la carte : -->
 
-            <p>Photoshop</p>
-          </div>
+          <p>Photoshop</p>
         </div>
-        <!-- Carte 3 -->
-        <div class="cartes">
-          <div class="card-header">
-            <img src="img/carteassistance.webp" alt="city" />
-          </div>
-          <div class="card-body">
-            <span class="tag tag-pink">Assistance / Technique</span>
-            <br>
-            <br>
+      </div>
+      <!-- Carte 3 -->
+      <div class="cartes">
+        <div class="card-header">
+          <img src="img/carteassistance.webp" alt="city" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-pink">Assistance / Technique</span>
+          <br>
+          <br>
           <!-- Compétences dans la carte : -->
           <p>Maintenance / Réparation PC</p>
           <p>Assistance Utilisateurs</p>
           <p>Linux</p>
           <p>Windows Server</p>
+        </div>
+      </div>
+    </div>
+    <!-- Expériences Professionnelles -->
+    <div class="expro" id=exp>
+      <h2>Parcours</h2>
+      <hr style="height:1px; color:black; background-color:black; width:200px">
+    </div>
+    <!-- TIMELINE -->
+    <section class="timeline-section">
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 - AUJOURD'HUI</div>
+          <div class="timeline-content">
+            <h3>ATELIER NUMERIQUE AGEVAL</h3>
+            <p>CDDI Atelier Numérique Ageval </p>
           </div>
         </div>
-      </div>
-      <!-- Expériences Professionnelles -->
-      <div class="expro"  id=exp >
-        <h2>Parcours</h2>
-        <hr style="height:1px; color:black; background-color:black; width:200px" >
-      </div>
-        <!-- TIMELINE -->
-        <section class="timeline-section">
-    <div class="timeline-items">
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2021 - AUJOURD'HUI</div>
-        <div class="timeline-content">
-          <h3>ATELIER NUMERIQUE AGEVAL</h3>
-          <p>CDDI Atelier Numérique Ageval </p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018 - 2019</div>
+          <div class="timeline-content">
+            <h3>STAGE CHEZ EUROTSTYLE SYSTEM VALENCIENNES</h3>
+            <p>Stage dans le cadre de la formation TAI </p>
+          </div>
         </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2018 - 2019</div>
-        <div class="timeline-content">
-          <h3>STAGE CHEZ EUROTSTYLE SYSTEM VALENCIENNES</h3>
-          <p>Stage dans le cadre de la formation TAI </p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018</div>
+          <div class="timeline-content">
+            <h3>STAGE CYBERBASE HASPRES</h3>
+            <p>Stage dans le cadre de la formation TAI</p>
+          </div>
         </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2018</div>
-        <div class="timeline-content">
-          <h3>STAGE CYBERBASE HASPRES</h3>
-          <p>Stage dans le cadre de la formation TAI</p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018 - 2019</div>
+          <div class="timeline-content">
+            <h3>FORMATION TECHNICIEN D'ASSISTANCE INFORMATIQUE</h3>
+            <p>Obtention du titre professionnel TAI</p>
+          </div>
         </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2018 - 2019</div>
-        <div class="timeline-content">
-          <h3>FORMATION TECHNICIEN D'ASSISTANCE INFORMATIQUE</h3>
-          <p>Obtention du titre professionnel TAI</p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2013 - 2016</div>
+          <div class="timeline-content">
+            <h3>LYCEE HORTICOLE DE RAISMES</h3>
+            <p>BAC PROFESSIONNEL Aménagement Paysager</p>
+          </div>
         </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">2013 - 2016</div>
-        <div class="timeline-content">
-          <h3>LYCEE HORTICOLE DE RAISMES</h3>
-          <p>BAC PROFESSIONNEL Aménagement Paysager</p>
-        </div>
-      </div>
-      <!-- <div class="timeline-item">
+        <!-- <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-date">2020</div>
         <div class="timeline-content">
@@ -220,30 +224,30 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
       </div> -->
-    </div>
-  </section>
-        <!-- Fin TIMELINE -->
+      </div>
+    </section>
+    <!-- Fin TIMELINE -->
 
     <!-- Portfolio -->
     <div class="portfolio" id=portf>
       <h2>Portfolio</h2>
-      <hr style="height:1px; color:black; background-color:black; width:180px" >
+      <hr style="height:1px; color:black; background-color:black; width:180px">
     </div>
     <!-- Mosaïque -->
-      <div class="gal">
-        <div class="imggal">
-          <img src="img/sharringaneyes.webp" alt="sharringan">
-        </div>
-        <div class="imggal">
-          <img src="img/affiche-ageval2.webp" alt="ageval">
-        </div>
-        <div class="imggal">
-          <img src="img/affiche-ageval.webp" alt="ageval">
-        </div>
-        <div class="imggal">
-          <img src="img/fusée-photoshop.webp" alt="fusée">
-        </div>
-        <!-- <div class="imggal">
+    <div class="gal">
+      <div class="imggal">
+        <img src="img/sharringaneyes.webp" alt="sharringan">
+      </div>
+      <div class="imggal">
+        <img src="img/affiche-ageval2.webp" alt="ageval">
+      </div>
+      <div class="imggal">
+        <img src="img/affiche-ageval.webp" alt="ageval">
+      </div>
+      <div class="imggal">
+        <img src="img/fusée-photoshop.webp" alt="fusée">
+      </div>
+      <!-- <div class="imggal">
           <img src="img/sharringaneyes.jpg" alt="">
         </div>
         <div class="imggal">
@@ -268,28 +272,29 @@
         <div class="imggal">
           <img src="img/sharringaneyes.jpg" alt="">
         </div> -->
-      </div>
-      <!-- Centres d'intérêts -->
+    </div>
+    <!-- Centres d'intérêts -->
 
-      <div class="ci" id=centres>
-        <h2>Centres D'intérêts</h2>
-        <hr style="height:1px; color:black; background-color:black; width:180px" >
-        <div class="centreflex">
-          <div class="iconordi">
-            <img src="img/ordi.webp" alt="ordi">
-            <img src="img/tech.webp" alt="tech">
-            <img src="img/cine.webp" alt="cine">
-            <img src="img/music.webp" alt="music">
-          </div>
+    <div class="ci" id=centres>
+      <h2>Centres D'intérêts</h2>
+      <hr style="height:1px; color:black; background-color:black; width:180px">
+      <div class="centreflex">
+        <div class="iconordi">
+          <img src="img/ordi.webp" alt="ordi">
+          <img src="img/tech.webp" alt="tech">
+          <img src="img/cine.webp" alt="cine">
+          <img src="img/music.webp" alt="music">
         </div>
       </div>
-    </main>
-    <footer>
-      <p>Copyright© <span id="year"></span> Hugo.P</p>
-      <!-- <img src="" alt=""> -->
-    </footer>
-    <script src="js/main.js">
+    </div>
+  </main>
+  <footer>
+    <p>Copyright© <span id="year"></span> Hugo.P</p>
+    <!-- <img src="" alt=""> -->
+  </footer>
+  <script src="js/main.js">
 
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
