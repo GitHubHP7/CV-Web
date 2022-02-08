@@ -5,4 +5,4 @@ function triggerOff() {
 }
 
 /* Date Auto */
-document.getElementById("year").innerHTML = new Date().getFullYear();
+new Date().getFullYear();document.getElementById("year").innerHTML = 
